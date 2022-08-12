@@ -56,7 +56,7 @@ class ChartNRemoteMediator @Inject constructor(
         }
 
         try {
-            Timber.i("Errors brand new")
+            Timber.i("Errors 3")
 
             val apiResponse = repo.fetchChartNTrackList(
                 offset = page,
