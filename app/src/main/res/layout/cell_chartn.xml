@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="seq"
+            type="Integer" />
+
+        <variable
+            name="data"
+            type="com.jamessc94.soundtrack.model.ChartN" />
+
+        <variable
+            name="click"
+            type="com.jamessc94.soundtrack.ui.chartn.ChartNAdapListener" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space10">
+
+        <TextView
+            android:id="@+id/cell_chartn_seq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{`#` + seq}"
+            android:textSize="@dimen/t20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/cell_chartn_name"
+            app:layout_constraintBottom_toBottomOf="@+id/cell_chartn_playcount"
+            style="@style/CustomTextview" />
+
+        <TextView
+            android:id="@+id/cell_chartn_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{data.name}"
+            android:layout_marginStart="@dimen/space10"
+            android:layout_marginEnd="@dimen/space10"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/cell_chartn_seq"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/CustomTextview" />
+
+        <TextView
+            android:id="@+id/cell_chartn_listener"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{@string/by_(data.artistName)}"
+            android:layout_marginTop="@dimen/space5"
+            app:layout_constraintTop_toBottomOf="@+id/cell_chartn_name"
+            app:layout_constraintStart_toStartOf="@+id/cell_chartn_name"
+            app:layout_constraintEnd_toEndOf="@+id/cell_chartn_name"
+            style="@style/CustomTextview" />
+
+        <TextView
+            android:id="@+id/cell_chartn_playcount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{@string/album_(data.albumName)}"
+            android:layout_marginTop="@dimen/space5"
+            app:layout_constraintTop_toBottomOf="@+id/cell_chartn_listener"
+            app:layout_constraintStart_toStartOf="@+id/cell_chartn_name"
+            app:layout_constraintEnd_toEndOf="@+id/cell_chartn_name"
+            style="@style/CustomTextview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/circluar.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/default_album_art_small.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/dots.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/dots_default.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/dots_selected.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_media_note.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_more_vert.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_next.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_not.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_notification.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_pause.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_play.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_previous.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_reorder.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_repeat_all.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_repeat_none.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_repeat_one.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_shuffle_all.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_shuffle_none.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/ic_sort_black.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/progress.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/drawable/rounded_bottom_corner.xml" value="0.173" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/activity_main.xml" value="0.18493150684931506" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_album.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_artist.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_artist_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_artist_page_footer.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_artists.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_general.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_list.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_paging.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_paging_footer.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chart_track.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chartlist_data.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chartlist_load.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chartn.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_chartn_load.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_discover.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_local_header.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_local_song.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_mv_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/cell_track.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_album.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_artist.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_bottom.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_chart.xml" value="0.1358695652173913" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_chart_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_chartlist.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_chartlist_page.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_chartn.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_discover.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_discover_ads.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_discover_ha.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_local.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_me.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_mv_list.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_mvideo.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_stream.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/layout/frag_track.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/menu/menu_discover.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/menu/menu_popup_song.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/menu/song_sort_by.xml" value="0.25" />
+        <entry key="..\:/Users/Lenovo/AndroidStudioProjects/soundtrack/app/src/main/res/xml/network_security_config.xml" value="0.18125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

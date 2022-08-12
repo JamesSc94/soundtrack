@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.jamessc94.soundtrack.ui.discover.DiscoverVM" />
+
+        <variable
+            name="adapterAdsVp"
+            type="com.jamessc94.soundtrack.ui.discover.DiscoverAdsAdap" />
+
+        <variable
+            name="adapter"
+            type="com.jamessc94.soundtrack.ui.discover.DiscoverAdap" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/frag_discover_vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:adapter="@{adapterAdsVp}"
+            app:tab="@{fragDiscoverTl}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHeight_percent=".2"/>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/frag_discover_tl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:tabBackground="@drawable/dots"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"
+            app:layout_constraintBottom_toBottomOf="@+id/frag_discover_vp"
+            app:layout_constraintStart_toStartOf="@+id/frag_discover_vp"
+            app:layout_constraintEnd_toEndOf="@+id/frag_discover_vp"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/space10"
+            app:layout_constraintTop_toBottomOf="@+id/frag_discover_tl"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:adapter="@{adapter}"
+            app:submitList="@{vm.artists}"
+            app:toast="@{vm.toastMessage}"
+            app:gridlm="@{4}"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:visibilityPb="@{vm.isLoading}"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

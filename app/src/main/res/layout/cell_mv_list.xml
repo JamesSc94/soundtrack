@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.jamessc94.soundtrack.model.MvideoAdapM" />
+
+        <variable
+            name="click"
+            type="com.jamessc94.soundtrack.ui.mvlist.MvListAdapListener" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space10"
+        android:onClickListener="@{() -> click.onClick(data)}">
+
+        <ImageView
+            android:id="@+id/cell_mv_list_thumb"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintDimensionRatio="1:1"
+            app:glideDirect="@{data.thumb}"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@{data.name}"
+            android:textSize="@dimen/t15"
+            android:lines="2"
+            android:minLines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginStart="@dimen/space10"
+            android:layout_marginEnd="@dimen/space10"
+            app:layout_constraintTop_toBottomOf="@+id/cell_mv_list_thumb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/CustomTextview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

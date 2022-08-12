@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="data"
+            type="com.jamessc94.soundtrack.model.Track" />
+
+        <variable
+            name="click"
+            type="com.jamessc94.soundtrack.ui.track.TrackAdapListener" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space5"
+        android:layout_marginBottom="@dimen/space5"
+        android:layout_marginStart="@dimen/space10"
+        android:layout_marginEnd="@dimen/space10"
+        android:onClickListener="@{() -> click.onClick(data)}">
+
+        <TextView
+            android:id="@+id/cell_track_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{data.name}"
+            android:textSize="@dimen/t15"
+            app:layout_constraintTop_toTopOf="parent"
+            style="@style/CustomTextview" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{data.duration}"
+            android:textSize="@dimen/t15"
+            app:layout_constraintTop_toBottomOf="@+id/cell_track_name"
+            style="@style/CustomTextview" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

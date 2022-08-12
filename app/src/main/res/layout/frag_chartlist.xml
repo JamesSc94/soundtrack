@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="vm"
+            type="com.jamessc94.soundtrack.ui.chartList.ChartListVM" />
+
+        <variable
+            name="adapterVp"
+            type="com.jamessc94.soundtrack.ui.chartList.adapter.ChartListAdap" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/frag_chartlist_tl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/frag_chartlist_vp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:adapter="@{adapterVp}"
+            app:tab="@{fragChartlistTl}"
+            app:list="@{vm.tlList}"
+            app:layout_constraintTop_toBottomOf="@+id/frag_chartlist_tl"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

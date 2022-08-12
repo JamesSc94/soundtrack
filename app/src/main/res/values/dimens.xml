@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="corner15">15sp</dimen>
+    <dimen name="t10">10sp</dimen>
+    <dimen name="t12">12sp</dimen>
+    <dimen name="t15">15sp</dimen>
+    <dimen name="t20">20sp</dimen>
+    <dimen name="space5">5sp</dimen>
+    <dimen name="space10">10sp</dimen>
+    <dimen name="space20">20sp</dimen>
+    <dimen name="height400">400sp</dimen>
+    <dimen name="design_tab_text_size_2line" tools:override="true">10sp</dimen>
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    <dimen name="album_art">55dp</dimen>
+    <dimen name="album_art_large">100dp</dimen>
+    <dimen name="album_art_mega">250dp</dimen>
+
+    <dimen name="album_art_spacing">2dp</dimen>
+    <dimen name="album_art_circle_small">42dp</dimen>
+
+    <dimen name="corner_small">4dp</dimen>
+    <dimen name="corner_large">8dp</dimen>
+    <dimen name="corner_extra_large">10dp</dimen>
+
+    <dimen name="bottom_controls_height">65dp</dimen>
+
+</resources>

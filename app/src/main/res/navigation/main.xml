@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    app:startDestination="@id/dashboardFrag">
+    <fragment
+        android:id="@+id/dashboardFrag"
+        android:name="com.jamessc94.soundtrack.ui.dashboard.DashboardFrag"
+        android:label="dashboardFrag" >
+        <action
+            android:id="@+id/action_dashboardFrag_to_artistFrag"
+            app:destination="@id/artistFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/artistFrag"
+        android:name="com.jamessc94.soundtrack.ui.artist.ArtistFrag"
+        android:label="ArtistFrag" >
+        <argument
+            android:name="name"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_artistFrag_to_albumFrag"
+            app:destination="@id/albumFrag" />
+        <action
+            android:id="@+id/action_artistFrag_to_mvListFrag"
+            app:destination="@id/mvListFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/albumFrag"
+        android:name="com.jamessc94.soundtrack.ui.album.AlbumFrag"
+        android:label="AlbumFrag" >
+        <argument
+            android:name="aid"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_albumFrag_to_trackFrag"
+            app:destination="@id/trackFrag" />
+    </fragment>
+    <fragment
+        android:id="@+id/trackFrag"
+        android:name="com.jamessc94.soundtrack.ui.track.TrackFrag"
+        android:label="TrackFrag" >
+        <argument
+            android:name="aid"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mvideoFrag"
+        android:name="com.jamessc94.soundtrack.ui.mvideo.MvideoFrag"
+        android:label="MvideoFrag" >
+        <argument android:name="ytlink"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/mvListFrag"
+        android:name="com.jamessc94.soundtrack.ui.mvlist.MvListFrag"
+        android:label="MvListFrag" >
+        <action
+            android:id="@+id/action_mvListFrag_to_mvideoFrag"
+            app:destination="@id/mvideoFrag" />
+        <argument
+            android:name="aid"
+            app:argType="string" />
+    </fragment>
+</navigation>
