@@ -56,8 +56,8 @@ class ChartNRemoteMediator @Inject constructor(
         }
 
         try {
-            Timber.i("Errors 1")
-            Timber.i("Errors 2")
+            Timber.i("Errors 3")
+
             val apiResponse = repo.fetchChartNTrackList(
                 offset = page,
 //                limit = state.config.pageSize,
